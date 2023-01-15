@@ -4,8 +4,14 @@
 
 <head>
 
+    <!--Import Bootstrap to file-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
     <!--Link the css stylesheet to the page-->
     <link rel = "stylesheet" href = "stylesheet.css" type = "text/css">
+
+    <!--Import Montserrat font-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
     <!--Add an image to header of site to show people who I am, directly under that add Bio/About Me-->
     <img class = "header_img" src="header_img.jpeg" alt="This is an image of me.">
@@ -36,9 +42,13 @@
             a valuable contribution to any company or team in which I find myself.</p>
     </div>
 
+    <br>
+
     <div id = "Experience and Education"> <!--Section displays the experience and education-->
 
         <h2>Experience and Education</h2>
+
+        <br>
 
         <div class = "education_experience_items">
             <h3>Hyperion Dev | Cape Town</h3>
@@ -75,29 +85,37 @@
 
     </div>
 
+    <br>
+
     <div id = "Qualifications"> <!--Section displays the qualifications-->
 
         <h2>Qualifications</h2>
 
+        <br>
+
         <div class = "containers">
 
             <div class = "qualifications_items">
-                <h3>Software Engineering Bootcamp | Hyperion Dev</h3>
+                <h3 class = 'h3_qualifications_items'>Software Engineering Bootcamp</h3>
+                <h4>Hyperion Dev</h4>
                 <h4>2022</h4>
             </div>
         
             <div class = "qualifications_items">
-                <h3>CS50's Inroduction to Computor Science | Edx - Harvardx</h3>
+                <h3 class = 'h3_qualifications_items'>CS50's Introduction to Computer Science</h3>
+                <h4>Edx - Harvardx</h4>
                 <h4>2022 - Present</h4>
             </div>
 
             <div class = "qualifications_items">
-                <h3>Intermediate Coffee Roasting | Speciality Coffee Association</h3>
+                <h3 class = 'h3_qualifications_items'>Intermediate Coffee Roasting</h3>
+                <h4>Speciality Coffee Association</h4>
                 <h4>2019</h4>
             </div>
 
             <div class = "qualifications_items">
-                <h3>Matric | Labori High School</h3>
+                <h3 class = 'h3_qualifications_items'>Matric</h3>
+                <h4>Labori High School</h4>
                 <h4>2012 - 2016</h4>
             </div>
 
@@ -105,16 +123,25 @@
 
     </div>
 
+    <br>
+
     <div id = "Competencies"> <!--Section display the competencies-->
 
         <h2>Competencies</h2>
         
+        <br>
+
         <ul>
 
             <li><h4>Python</h4></li>
-            <li><h4>SQL</h4></li>
             <li><h4>Django</h4></li>
+            <li><h4>SQL</h4></li>
+            <li><h4>Git</h4></li>
+            <li><h4>HTML</h4></li>
+            <li><h4>CSS</h4></li>
+            <br>
             <li><h4>Wordpress</h4></li>
+            <br>
             <li><h4>Afrikaans</h4></li>
             <li><h4>English</h4></li>
 
@@ -122,37 +149,62 @@
 
     </div>
 
+    <br>
+
     <div id = "Projects"> <!--Overview all the projects and links to GitHub-->
 
         <!--I only added in examples because I don't have any projects loaded on github as of yet.-->
 
         <h2>My Projects</h2>
-
+        <br>
         <h3>Task Manager</h3>
-            <p>This project is a task manager that allows a user to sign in. Once signed in, the menu is then tailored according to the type of user entered.
+            <p>This project is a CLI application that functions like a Task Manager with numerous users. 
+            Once signed in, the menu is then tailored according to the type of user entered.
             After that, the user can make, complete and edit tasks within this app.<br><br>
-            App is built with Python.
+            The app is built using Python.
             </p>
             <a taget = "_blank" href="https://github.com/BJaco13/Task_Manager.git">Click here to view code</a>
-            <br>
+        <br><br>
+
+        <br>
+        <h3>Band Website</h3>
+            <p>This project is a website for a fictional band called Thirteen Knights. It has a Navagation bar
+            with a few pages like about, contact us, and a merchandise page.
+            <br><br>
+            The site is built using Python, Django, HTML & CSS.
+            </p>
+            <a taget = "_blank" href="https://github.com/BJaco13/Mock_Band_Website.git">Click here to view code</a>
+        <br><br>
 
     </div>
 
 </body>
 
+<br>
+<br>
+
 <footer>
     <!--Here is the footer to showcase the contact details. Some are linked to open on new pages like email, address & LinkedIn-->
+    
     <h3>Contact Details</h3>
+
+    <br>
 
     <label>Email: </label>
     <a href="mailto:jacobeukes13@gmail.com">jacobeukes13@gmail.com</a>
-    <p>Cellphone: 079 307 1616</p>
+    <br>
+    <label>Cellphone: 079 307 1616</label>
+    <br>
     <label>Address: </label>
     <a target = "_blank" href="https://goo.gl/maps/VjYRqh6Rm5RsMdPV9">Edgemead, Cape Town, South Africa, 7460</a>
     <br>
     <br>
-    <a target="_blank" href="www.linkedin.com/in/jaco-beukes-63a4b814a">LinkedIn</a>
+    <a target="_blank" href="https://www.linkedin.com/in/jaco-beukes-63a4b814a">LinkedIn</a>
     
 </footer>
+
+<br>
+<br>
+<br>
 
 </html>
