@@ -1,213 +1,216 @@
-<!DOCTYPE HTML>
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-    <!--Import Bootstrap to file-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-    <!--Link the css stylesheet to the page-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaco Beukes | Python Developer</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link the css stylesheet to the page -->
     <link rel = "stylesheet" href = "stylesheet.css" type = "text/css">
-
-    <!--Import Montserrat font-->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-
-    <!--Add an image to header of site to show people who I am, directly under that add Bio/About Me-->
-    <img class = "header_img" src="header_img.jpeg" alt="This is an image of me.">
-
 </head>
-
 <body>
 
-    <div id = "About Me"> <!--Section is the bio-->
-
-        <h2>Jaco Beukes</h2>
-
-        <p class = "aboutp" >I am an aspiring software developer, passionate about learning and growing in the industry. My
-            first experience with coding was probably in grade 10 when I started learning with the program
-            Scratch. Since then I've worked on to improving my skills, I love to take on a challenge, especially
-            when others can't find a solution. I enjoy creating new things and improving processes with out-of-the-box 
-            thinking.<br><br>
-            I worked at a coffee shop as a barista, and eventually the junior manager for about three years. I
-            learned as much as I could about coffee, but found myself in charge of the point of sale systems,
-            managing the database and the website. It was here that I realized I wanted to make a career in
-            software development and decided to study software development through Hyperion Dev.<br><br>
-            I believe that I'm a great team player no matter the role, and this has been proven in my previous
-            roles at the coffee shop. I love supporting a lead but would also not shy away from taking the lead.
-            I hold honesty, trust, respect, and transparency in high regard not only in my personal life but also
-            in the workplace. I believe that when these values are upheld, a team can truly come together and
-            get the task done to the best of their ability.<br><br>
-            I believe that the skills and attributes I have will be
-            a valuable contribution to any company or team in which I find myself.</p>
-    </div>
-
-    <br>
-
-    <div id = "Experience and Education"> <!--Section displays the experience and education-->
-
-        <h2>Experience and Education</h2>
-
-        <br>
-
-        <div class = "education_experience_items">
-            <h3>Hyperion Dev | Cape Town</h3>
-            <h4>2022 - 2022</h4>
-                <p>This is a Software Engineering course geared to give the student real-world experience.
-                    Each project is reviewed by one of their code reviewers to give personal feedback. This
-                    course teaches the student practical skills like Python, Django, SQL, and basic HTML 
-                    and CSS as a few examples.</p>
-        </div>
-        
-        <div class = "education_experience_items">
-            <h3>Bean Authentic Coffee Roastery | Monte Vista, Cape Town</h3>
-            <h4>2018 - 2022</h4>
-                <p>Duties and roles that I had here was the following - Junior Manager, Coffee Roaster, Sales
-                    Consultant, Barista, Website, Franchise Liaison, POS Database Management and General
-                    shop admin like Invoices, Contacting suppliers, Dealing with complaints etc.</p>
-        </div>
-        
-        <div class = "education_experience_items">
-            <h3>TMT | Wellington</h3>
-            <h4>2017 - 2018</h4>
-                <p>During this program, we were taught life and leadership skills. We did 3 community outreaches
-                    during the year where 2 of which happened in schools in and around Cape Town, Bloemfontein, 
-                    Swellendam, and Mosselbay. We focused on how to work well together in a team, how to 
-                    support the leader as best we can and also how to lead a group of 5-16 people for different 
-                    activities and outreaches.
-                </p>
-        </div>
-        
-        <div class = "education_experience_items">
-            <h3>Labori High School | Paarl</h3>
-            <h4>2012 - 2016</h4>
-                <p>I was part of the student counsel and coached gymnastics for two years during school.<br><br>
-                    Subjects taken - Mathematics, Electrical Engineering, Information Technology, Physics,
-                    Afrikaans First Language, English Second Language, Life Orientation</p>
-        </div>
-
-    </div>
-
-    <br>
-
-    <div id = "Qualifications"> <!--Section displays the qualifications-->
-
-        <h2>Qualifications</h2>
-
-        <br>
-
-        <div class = "containers">
-
-            <div class = "qualifications_items">
-                <h3 class = 'h3_qualifications_items'>Software Engineering Bootcamp</h3>
-                <h4>Hyperion Dev</h4>
-                <h4>2022</h4>
+    <!-- HERO HEADER -->
+    <header class="hero-section text-center text-md-start">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center mb-4 mb-md-0">
+                    <img src="header_img.jpeg" alt="Jaco Beukes" class="profile-img shadow">
+                </div>
+                <div class="col-md-9">
+                    <h1 class="fw-bold mb-1">Jaco Beukes</h1>
+                    <h4 class="text-info fw-semibold mb-3">Python Developer</h4>
+                    <p class="lead text-light opacity-75 mb-4">
+                        Specialized in Python, Django, REST APIs, and observability systems. Experienced in designing automated background pipelines, monitoring architectures with OpenTelemetry and Grafana, and backend database integrations.
+                    </p>
+                    <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-md-start">
+                        <a href="https://github.com/BJaco13" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm">
+                            <i class="fab class="fab fa-github me-1></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/jaco-beukes-63a4b814a" target="_blank" rel="noopener noreferrer" class="btn btn-outline-info btn-sm">
+                            <i class="fab fa-linkedin me-1"></i> LinkedIn
+                        </a>
+                        <a href="mailto:jacobeukes13@gmail.com" class="btn btn-primary btn-sm">
+                            <i class="fas fa-envelope me-1"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
             </div>
-        
-            <div class = "qualifications_items">
-                <h3 class = 'h3_qualifications_items'>CS50's Introduction to Computer Science</h3>
-                <h4>Edx - Harvardx</h4>
-                <h4>2022 - Present</h4>
-            </div>
-
-            <div class = "qualifications_items">
-                <h3 class = 'h3_qualifications_items'>Intermediate Coffee Roasting</h3>
-                <h4>Speciality Coffee Association</h4>
-                <h4>2019</h4>
-            </div>
-
-            <div class = "qualifications_items">
-                <h3 class = 'h3_qualifications_items'>Matric</h3>
-                <h4>Labori High School</h4>
-                <h4>2012 - 2016</h4>
-            </div>
-
         </div>
+    </header>
 
-    </div>
+    <main class="container my-5">
 
-    <br>
+        <!-- COMPETENCIES SECTION -->
+        <section id="competencies" class="mb-5">
+            <h2 class="section-title">Technical Competencies</h2>
+            <div class="card card-custom p-4">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <h6 class="fw-bold text-uppercase text-secondary small">Languages & Frameworks</h6>
+                        <div>
+                            <span class="badge-tech">Python</span>
+                            <span class="badge-tech">Django</span>
+                            <span class="badge-tech">FastAPI</span>
+                            <span class="badge-tech">REST APIs</span>
+                            <span class="badge-tech">SQLite3</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <h6 class="fw-bold text-uppercase text-secondary small">Observability & Tools</h6>
+                        <div>
+                            <span class="badge-tech">OpenTelemetry</span>
+                            <span class="badge-tech">Grafana</span>
+                            <span class="badge-tech">Sentry</span>
+                            <span class="badge-tech">Git / GitHub</span>
+                            <span class="badge-tech">Linux / Cron</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="fw-bold text-uppercase text-secondary small">Web Basics & Practices</h6>
+                        <div>
+                            <span class="badge-tech">HTML5</span>
+                            <span class="badge-tech">CSS3</span>
+                            <span class="badge-tech">Bootstrap</span>
+                            <span class="badge-tech">Agile / Jira</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div id = "Competencies"> <!--Section display the competencies-->
-
-        <h2>Competencies</h2>
+        <!-- PROJECTS SECTION -->
         
-        <br>
+        <!-- <section id="projects" class="mb-5">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="row g-4">
+                 Upcoming / Primary Project
+                <div class="col-md-6">
+                    <div class="card card-custom h-100 p-4 border-start border-4 border-info">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <h4 class="fw-bold mb-0">Async Data Pipeline API</h4>
+                            <span class="badge bg-info text-dark">Featured</span>
+                        </div>
+                        <p class="text-muted small mb-3">FastAPI | Celery | Redis | OpenTelemetry | Grafana</p>
+                        <p class="card-text">
+                            An asynchronous file ingestion and processing system. Offloads heavy CSV parsing to Celery background workers and exports distributed trace spans via OpenTelemetry to a Grafana dashboard.
+                        </p>
+                        <div class="mt-auto">
+                            <a href="https://github.com/BJaco13" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-primary">View Project on GitHub</a>
+                        </div>
+                    </div>
+                </div> -->
+                
 
-        <ul>
+                <!-- Task Manager CLI -->
+                <div class="col-md-6">
+                    <div class="card card-custom h-100 p-4">
+                        <h4 class="fw-bold mb-1">Task Manager CLI</h4>
+                        <p class="text-muted small mb-3">Python | File I/O</p>
+                        <p class="card-text">
+                            A command-line application managing tasks across multi-role users. Features dynamic menus based on user credentials and file-backed task state editing.
+                        </p>
+                        <div class="mt-auto">
+                            <a href="https://github.com/BJaco13/Task_Manager.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <li><h4>Python</h4></li>
-            <li><h4>Django</h4></li>
-            <li><h4>SQL</h4></li>
-            <li><h4>Git</h4></li>
-            <li><h4>HTML</h4></li>
-            <li><h4>CSS</h4></li>
-            <br>
-            <li><h4>Wordpress</h4></li>
-            <br>
-            <li><h4>Afrikaans</h4></li>
-            <li><h4>English</h4></li>
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="mb-5">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="d-flex flex-column gap-4">
+                
+                <!-- Voyc -->
+                <div class="card card-custom p-4">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div>
+                            <h4 class="fw-bold mb-0">Software Developer</h4>
+                            <h6 class="text-primary mb-0">Voyc | Cape Town (Remote)</h6>
+                        </div>
+                        <span class="text-muted small">2023 – 2026</span>
+                    </div>
+                    <ul class="mb-0 ps-3">
+                        <li>Co-led the SFTP Integration department, developing and maintaining secure, automated data pipelines using Python and Linux cron scripts.</li>
+                        <li>Implemented Anomaly Detection algorithms in Django for processing incoming audio call uploads.</li>
+                        <li>Architected system monitoring and telemetry dashboards using OpenTelemetry, Grafana, and Sentry to triage backend errors during on-call rotations.</li>
+                    </ul>
+                </div>
 
-        </ul>
+                <!-- Bean Authentic -->
+                <div class="card card-custom p-4">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-2">
+                        <div>
+                            <h4 class="fw-bold mb-0">Junior Manager</h4>
+                            <h6 class="text-primary mb-0">Bean Authentic Coffee Roastery | Cape Town</h6>
+                        </div>
+                        <span class="text-muted small">2018 – 2022</span>
+                    </div>
+                    <ul class="mb-0 ps-3">
+                        <li>Managed Point of Sale (POS) database administration, inventory tracking, and website upkeep.</li>
+                        <li>Handled store administration, supplier operations, and client communication.</li>
+                    </ul>
+                </div>
 
-    </div>
+            </div>
+        </section>
 
-    <br>
+        <!-- EDUCATION & QUALIFICATIONS SECTION -->
+        <section id="education" class="mb-5">
+            <h2 class="section-title">Education & Qualifications</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card card-custom h-100 p-4">
+                        <h5 class="fw-bold mb-1">IBM Data Analyst Professional Certificate</h5>
+                        <p class="text-muted small mb-2">Coursera | 2026</p>
+                        <p class="small mb-0">Focused on data visualization, SQL, Python data analysis, and dashboard generation.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-custom h-100 p-4">
+                        <h5 class="fw-bold mb-1">Software Engineering Bootcamp</h5>
+                        <p class="text-muted small mb-2">HyperionDev | 2022</p>
+                        <p class="small mb-0">Practical coursework covering Python algorithms, Django, SQL databases, and web integration.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div id = "Projects"> <!--Overview all the projects and links to GitHub-->
+    </main>
 
-        <!--I only added in examples because I don't have any projects loaded on github as of yet.-->
+    <!-- FOOTER -->
+    <footer class="text-center text-md-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h5 class="text-light fw-bold">Jaco Beukes</h5>
+                    <p class="small mb-1">Cape Town, South Africa</p>
+                    <p class="small mb-0">Email: <a href="mailto:jacobeukes13@gmail.com">jacobeukes13@gmail.com</a> | Cell: 079 307 1616</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h6 class="text-light fw-bold">Links</h6>
+                    <p class="small mb-0">
+                        <a href="https://github.com/BJaco13" target="_blank" rel="noopener noreferrer" class="me-3">GitHub</a>
+                        <a href="https://www.linkedin.com/in/jaco-beukes-63a4b814a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="border-secondary my-4">
+            <div class="text-center small">
+                <p class="mb-0">&copy; Jaco Beukes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-        <h2>My Projects</h2>
-        <br>
-        <h3>Task Manager</h3>
-            <p>This project is a CLI application that functions like a Task Manager with numerous users. 
-            Once signed in, the menu is then tailored according to the type of user entered.
-            After that, the user can make, complete and edit tasks within this app.<br><br>
-            The app is built using Python.
-            </p>
-            <a taget = "_blank" href="https://github.com/BJaco13/Task_Manager.git">Click here to view code</a>
-        <br><br>
-
-        <br>
-        <h3>Band Website</h3>
-            <p>This project is a website for a fictional band called Thirteen Knights. It has a Navagation bar
-            with a few pages like about, contact us, and a merchandise page.
-            <br><br>
-            The site is built using Python, Django, HTML & CSS.
-            </p>
-            <a taget = "_blank" href="https://github.com/BJaco13/Mock_Band_Website.git">Click here to view code</a>
-        <br><br>
-
-    </div>
-
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
-<br>
-<br>
-
-<footer>
-    <!--Here is the footer to showcase the contact details. Some are linked to open on new pages like email, address & LinkedIn-->
-    
-    <h3>Contact Details</h3>
-
-    <br>
-
-    <label>Email: </label>
-    <a href="mailto:jacobeukes13@gmail.com">jacobeukes13@gmail.com</a>
-    <br>
-    <label>Cellphone: 079 307 1616</label>
-    <br>
-    <label>Address: </label>
-    <a target = "_blank" href="https://goo.gl/maps/VjYRqh6Rm5RsMdPV9">Edgemead, Cape Town, South Africa, 7460</a>
-    <br>
-    <br>
-    <a target="_blank" href="https://www.linkedin.com/in/jaco-beukes-63a4b814a">LinkedIn</a>
-    
-</footer>
-
-<br>
-<br>
-<br>
-
 </html>
